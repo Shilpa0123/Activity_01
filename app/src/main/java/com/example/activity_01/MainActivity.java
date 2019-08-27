@@ -8,7 +8,7 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.example.harsh.retrofirpokemon.R;
+import com.example.activity_01.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;
