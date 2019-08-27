@@ -7,8 +7,18 @@
     tools:context=".MainActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_poke"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/recycle_poke"/>
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="366dp"
+        android:layout_height="164dp"
+        android:layout_alignBottom="@+id/recycle_poke"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="544dp"
+        app:srcCompat="@drawable/laddo" />
 
 </RelativeLayout>
